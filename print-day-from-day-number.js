@@ -2,7 +2,7 @@ let prompt = require("prompt-sync")();
 function getDayFromNumber(dayNumber) {
     let days = ["Monday","Tuesday","Wednusday","Thursday","Friday","Saturday","Sunday"];
     if(dayNumber <1 || dayNumber>7){
-        console.log("Invalid input");
+        return "Invalid Input"
     }
     return days[dayNumber-1];
 }
