@@ -4,7 +4,7 @@ let end = Number(prompt("Enter end: "));
 function sumEvenOddInRange(s,e){
     let evenSum = 0;
     let oddSum = 0;
-    for(let i = s; i <= e; i++){
+    for(let i = start; i<=end; i++){
         if(i%2===0){
             evenSum = evenSum + i;
         } else {
